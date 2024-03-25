@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    border: 1px solid #000000;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.logo {
+    border: 1px solid black;
+    display: flex;
+}
+
+.logo img {
+    width: 98px;
+    height: 110px;
+    border: 1px solid black;
+}
+
+.PB{
+    padding:20px;
+    color: silver;
+}
+
+#menu {
+   
+    border: 1px solid black;
+}
+
+#menu a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
