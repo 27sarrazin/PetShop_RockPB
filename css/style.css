@@ -5,7 +5,6 @@
 
 header{
     display: flex;
-    border: 1px solid #000000;
     text-align: center;
     justify-content:space-between;
     align-items: center;
@@ -13,6 +12,7 @@ header{
     background-position: center;
     background-size: cover;
     padding-bottom: 500px;
+    
 }
 .logo {
     display: flex;
@@ -35,11 +35,11 @@ header{
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    color: #4a95f6;
+    color:#262523;
 }
 
 #menu a:hover{
-    color: #0056b3;
+    color:#FFA500;
 }
 /*Carrosel*/
 #carouselExampleIndicators{
@@ -47,5 +47,71 @@ header{
 }
 
 /*Parte dos produtos*/
+.anuncioProdutos{
+    color: #ffff;
+    padding-top: 60px;
+   
+}
+
+.produtos{
+    background-color:#FFA500;
+    height: 650px;
+    width: 100%;
+    text-align: center;
+   
+}
+.caixaProdutos{
+    justify-content:space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.produto1, .produto2, .produto3, .produto4, .produto5, .produto6{
+    margin:10px;
+}
+
+.imgProdutos{
+    height: 200px;
+    width: 200px;
+}
+
+.preço{
+    font-size: 20px;
+}
+
+/*Parte do email*/
+.caixaMensagem{
+    height: 700px;
+    width: 100%;
+    background-color: #8B4513;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email {
+    font-size: 18px; 
+    padding: 10px;
+    width: 50%;
+}
+
+.cadastro{
+    height: 400px;
+    width: 900px;
+    background-color: #FFA500;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    margin-top: 100px; 
+    flex-direction: column;
+}
+.mensagemEmail{
+    margin-bottom: 10px;
+    color: white; 
+    text-align: center;
+}
+
+
 
 
