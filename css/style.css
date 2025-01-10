@@ -145,17 +145,46 @@ header{
     background-color: #4f9d53;
 }
 
+
+
+/*informacoes-finais*/
+
 footer{
-    background-color: #4CAF50;
+    background-color: #FFA500;
+    height: 300px;
+    width: 100%;
+}
+
+#informacoes-finais{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+#image-redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 15;
+    
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+span{
     height: 50px;
 }
-footer p{
-    color: white;
+span p{
     padding: 10px;
     font-size: 15px;
     text-align: center;
+    background-color: #8B4513;
+    color: #fff;
 }
-
-
 
 
