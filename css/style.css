@@ -4,25 +4,20 @@
 }
 
 header{
-    display: flex;
-    text-align: center;
-    justify-content:space-between;
-    align-items: center;
     background-image:url("https://www.vetfaro.com.br/wp-content/uploads/2019/07/Post2704_PrimeraTosa.jpg");
     background-position: center;
     background-size: cover;
     padding-bottom: 500px;
-    
 }
+
 .logo {
     display: flex;
-  
+    align-items: center;
 }
 
 .logo img {
     width: 98px;
     height: 110px;
-   
 }
 
 .PB{
@@ -30,17 +25,49 @@ header{
     color: #4a95f6;
 }
 
-#menu a {
-    padding: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 25px;
-    color:#262523;
+.navBar{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem 6rem;
 }
 
-#menu a:hover{
-    color:#FFA500;
+.nav-list{
+    display: flex;
+    align-items: center;
 }
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul .nav-link:hover{
+    color: #4a95f6;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+.mobile-menu .nav-link{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mobile-menu h2{
+    color: #4a95f6;
+}
+
 /*Carrosel*/
 #carouselExampleIndicators{
     padding-top: 11px;
@@ -132,7 +159,7 @@ header{
 .botaoCadastro {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 25px;
+    padding: 15px 30px;
     font-size: 17px;
     font-weight: bold;
     border: none;

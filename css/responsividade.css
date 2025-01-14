@@ -1,0 +1,131 @@
+@media screen and (max-width:600px) {
+
+   .logo img {
+      width: 70px;
+      height: 70px;
+  }
+
+   .navBar{
+    padding: 1.5rem 4rem;
+   }
+
+  .nav-item{
+    display: none;
+   }
+
+   .menu-icon{
+    display: block;
+   }
+   .mobile-menu{
+      background-color:rgba(250, 215, 220, 0.365);
+   }
+
+   .mobile-menu ul{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item{
+      display: block;
+      padding-top: 1.2rem;
+
+   }
+   .menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .PB{
+      display: none;
+   }
+
+   .open{
+    display: block;
+   }
+}
+
+@media screen and (max-width:768px) and (min-width:600px) {
+   .navBar{
+    padding: 1.5rem 4rem;
+   }
+  .nav-item{
+    display: none;
+   }
+
+   .menu-icon{
+    display: block;
+   }
+
+   .mobile-menu{
+      background-color:rgba(250, 215, 220, 0.365);
+   }
+
+   .mobile-menu ul{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item{
+      display: block;
+      padding-top: 1.2rem;
+
+   }
+   .menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .PB{
+      display: none;
+   }
+
+   .open{
+    display: block;
+   }
+}
+
+@media screen and (max-width:992px)and (min-width:768px){
+   .navBar{
+    padding: 1.5rem 4rem;
+   }
+  .nav-item{
+    display: none;
+   }
+
+   .menu-icon{
+    display: block;
+   }
+
+   .mobile-menu{
+      background-color:rgba(250, 215, 220, 0.365);
+   }
+
+   .mobile-menu ul{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+   }
+   .mobile-menu .nav-item{
+      display: block;
+      padding-top: 1.2rem;
+
+   }
+   .menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   }
+   
+   .PB{
+      display: none;
+   }
+
+   .open{
+    display: block;
+   }
+}
